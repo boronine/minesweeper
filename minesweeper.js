@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     canvasElement.addEventListener("contextmenu", function (event) {
         event.preventDefault();
-        console.log('Right click!');
+        const canvasRect = canvasElement.getBoundingClientRect();
+        const x = event.clientX - canvasRect.left;
+        const y = event.clientY - canvasRect.top;
+        console.log('Right click!', x, y);
     });
 });
