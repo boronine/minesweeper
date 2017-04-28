@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     canvasElement.width = 200;
     canvasElement.height = 200;
 
-    context.fillStyle = 'green';
+    context.fillStyle = 'blue';
     context.fillRect(0, 0, 200, 200);
 
     canvasElement.addEventListener("click", function (event) {
