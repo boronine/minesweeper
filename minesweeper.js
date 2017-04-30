@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const canvasElement = document.getElementById('main-canvas');
     const context = canvasElement.getContext('2d');
-    canvasElement.width = 10;
-    canvasElement.height = 10;
+    canvasElement.width = 200;
+    canvasElement.height = 200;
 
     context.fillStyle = 'red';
     context.fillRect(0, 0, 10, 10);
