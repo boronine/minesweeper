@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     canvasElement.width = 200;
     canvasElement.height = 200;
 
-        context.fillStyle = 'green';
+    context.fillStyle = 'green';
     context.fillRect(0, 0, 200, 200);
- context.fillStyle = 'red';
+    context.fillStyle = 'red';
     context.fillRect(0, 0, 10, 10);
 
 
