@@ -2,7 +2,7 @@ let canvasElement;
 let context;
 let minefield = [];
 
-
+   //Salty memes these days ._.
 function initializeGame() {
     canvasElement.width = 200;
     canvasElement.height = 200;
