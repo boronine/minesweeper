@@ -17,7 +17,10 @@ function draw() {
     context.fillStyle = 'green';
     context.fillRect(0, 0, 200, 200);
     context.fillStyle = 'red';
+    context.strokeStyle = "blue";
+    context.strokeRect(0, 0, 10, 10);
     context.fillRect(0, 0, 10, 10);
+
 
     // DRAW MINEFIELD
     // .........
